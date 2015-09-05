@@ -48,9 +48,54 @@ button{cursor:pointer;}
   float:left;
 }
 
+#bocetos-header {
+  width:700px;
+}
+
+#bocetos-header h2 {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-grid {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.image-row {
+    display: flex;
+    margin: 10px 10px 100px;
+    width: 700px;
+}
+
+.image-container {
+  width: 100px;
+  height: 60px;
+  float:left;
+  margin:10px;
+}
+
+.image-container a {
+  text-decoration:none;
+  color:#808080;
+  font-size:110%;
+}
+
+.image-container img {
+  width:100%;
+  height: auto;
+}
+
 #footer {
   width:700px;
   color:#C0C0C0;
+}
+
+#footer a {
+  text-decoration:none;
+  font-weight:bold;
+  color:#808080;
 }
 
 .vigneta {

@@ -28,14 +28,14 @@ button{cursor:pointer;}
 
 /* wrapper */
 #wrapper {
-  width:600px;
+  width:700px;
   margin: 0 auto;
 }
 
 #header {
-  width:600px;
+  width:700px;
   height: 200px;
-  margin:40px 5px;
+  margin: 10px 5px 70px;
 }
 
 #header img {
@@ -49,24 +49,42 @@ button{cursor:pointer;}
 }
 
 #footer {
-  width:600px;
+  width:700px;
+  color:#C0C0C0;
 }
 
 .vigneta {
-  width:310px;
+  width:360px;
   float:left;
 }
 
-
+.vigneta a {
+  font-size:120%;
+  text-decoration:none;
+  color:#808080;
+}
 
 .row {
-  width:600px;
+  width:700px;
 }
 
 .col {
-  width:250px;
+  width:300px;
   float:left;
   padding:0 20px;
+  font-size:120%;
+}
+
+.col a {
+  test-decoration:none;
+  color:#808080;
+}
+
+.small-col {
+  width:250px;
+  float:left;
+  padding: 46px 46px 10px;
+  font-size:120%;
 }
 
 .separator {

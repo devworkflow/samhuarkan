@@ -62,12 +62,17 @@ button{cursor:pointer;}
     float: left;
     font-size: 100%;
     font-weight: bold;
-    padding: 20px 0 10px;
+    padding: 20px 10px 10px;
     width: 330px;
 }
 
+#episodios-idx-header .title img {
+	padding: 15px 30px;
+}
+
 #episodios-idx-header p {
-	padding: 15px 0;
+    padding: 15px 65px;
+    width: 164px;;
 }
 
 #episodios-index {
@@ -77,8 +82,8 @@ button{cursor:pointer;}
 }
 
 .index-header {
-    background: #101010 none repeat scroll 0 0;
-    color: #C0C0C0;
+    background: #666666 none repeat scroll 0 0;
+    color: #FFFFFF;
     display: inline-block;
     font-size: 130%;
     font-weight: bold;
@@ -94,9 +99,12 @@ button{cursor:pointer;}
 }
 
 .index-col {
-	float: left;
-	width: 202px;
-	padding: 15px;;
+    border: 2px solid gray;
+    float: left;
+    height: 50px;
+    margin: 8px;
+    padding: 5px;
+    width: 202px;
 }
 
 #episodios-index a {
@@ -104,6 +112,10 @@ button{cursor:pointer;}
 	font-weight: bold;
 	font-size: 120%;
 	color: #7f7f7f;
+}
+
+#episodios-index .index-footer p {
+	text-align: right;
 }
 
 #bocetos-header h2 {

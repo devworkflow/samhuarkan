@@ -52,6 +52,72 @@ button{cursor:pointer;}
   width:700px;
 }
 
+#episodios-idx-header {
+    display: inline-block;
+    margin: 2px;
+    width: 700px;
+}
+
+#episodios-idx-header .title {
+    float: left;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 20px 10px 10px;
+    width: 330px;
+}
+
+#episodios-idx-header .title img {
+	padding: 15px 30px;
+}
+
+#episodios-idx-header p {
+    padding: 15px 65px;
+    width: 164px;;
+}
+
+#episodios-index {
+    display: inline-block;
+    margin: 2px;
+    width: 700px;
+}
+
+.index-header {
+    background: #666666 none repeat scroll 0 0;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 130%;
+    font-weight: bold;
+    width: 700px;
+    padding: 5px;
+    text-align: center;
+}
+
+.index-row {
+	width: 700px;
+	clear: both;
+	display: inline-block;
+}
+
+.index-col {
+    border: 2px solid gray;
+    float: left;
+    height: 50px;
+    margin: 8px;
+    padding: 5px;
+    width: 202px;
+}
+
+#episodios-index a {
+	text-decoration:none;
+	font-weight: bold;
+	font-size: 120%;
+	color: #7f7f7f;
+}
+
+#episodios-index .index-footer p {
+	text-align: right;
+}
+
 #bocetos-header h2 {
     font-size: 200%;
     font-weight: bold;
